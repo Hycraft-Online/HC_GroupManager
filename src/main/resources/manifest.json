@@ -1,0 +1,20 @@
+{
+  "Group": "HaporeLab",
+  "Name": "GroupManager",
+  "Version": "${version}",
+  "Description": "${description}",
+  "Authors": [
+    {
+      "Name": "Server Admin"
+    }
+  ],
+  "ServerVersion": "${server_version}",
+  "Dependencies": {
+    "Hytale:EntityModule": "*",
+    "HC_Party:HC_Party": "*"
+  },
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "Main": "${entry_point}",
+  "IncludesAssetPack": false
+}

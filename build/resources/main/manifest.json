@@ -1,0 +1,20 @@
+{
+  "Group": "HaporeLab",
+  "Name": "GroupManager",
+  "Version": "1.0.0",
+  "Description": "GroupManager shim that bridges HC_Party to the GroupManager API expected by ArenaPvP",
+  "Authors": [
+    {
+      "Name": "Server Admin"
+    }
+  ],
+  "ServerVersion": "0.0.2",
+  "Dependencies": {
+    "Hytale:EntityModule": "*",
+    "HC_Party:HC_Party": "*"
+  },
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "Main": "com.groupmanager.HC_GroupManagerPlugin",
+  "IncludesAssetPack": false
+}
